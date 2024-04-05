@@ -12,7 +12,7 @@ module "civo_dg_exm_instances" {
   source               = "../modules/civo-instance"
   instance_count       = 1
   region               = "DG-EXM"
-  instance_type        = "g4s.xsmall"
+  instance_type        = "g4g.small"
   disk_image_name      = "ubuntu-jammy"
   disk_image_version   = "22.04"
 }

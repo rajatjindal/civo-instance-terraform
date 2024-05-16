@@ -7,7 +7,7 @@ variable "instance_count" {
 variable "region" {
   description = "The civo region to create instance in"
   type        = string
-  default     = "LON1"
+  default     = ""
 }
 
 variable "instance_type" {

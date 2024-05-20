@@ -27,3 +27,9 @@ variable "disk_image_version" {
   type        = string
   default     = "22.04"
 }
+
+variable "civo_token" {
+  description = "The civo token to use Civo provider"
+  type        = string
+  default     = ""
+}
